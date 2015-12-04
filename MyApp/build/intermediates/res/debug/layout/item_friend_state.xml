@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_avatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/avatar_y"/>
+
+    <TextView
+        android:id="@+id/tv_nickname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="羊咩咩~"
+        android:layout_toRightOf="@id/iv_avatar"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/shuoshuo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="我的说说"
+        android:layout_toRightOf="@id/iv_avatar"
+        android:layout_below="@+id/tv_nickname"
+        android:layout_marginTop="10dp"/>
+
+    <com.zhym.friendcircule.NoScrollGridView
+        android:id="@+id/friend_photos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/iv_avatar"
+        android:layout_below="@id/shuoshuo"
+        android:horizontalSpacing="5dp"
+        android:verticalSpacing="5dp"
+        android:numColumns="4"/>
+
+
+</RelativeLayout>
+<!-- From: file:/E:/androideclipse/MyApp/res/layout/item_friend_state.xml -->

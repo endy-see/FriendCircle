@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView
+        android:layout_width="128dp"
+        android:layout_height="102dp"
+        android:id="@+id/photo_mask"
+        android:layout_centerInParent="true"
+        android:background="@color/black"/>
+    <ImageView
+        android:id="@+id/photo_iv"
+        android:layout_width="128dp"
+        android:layout_height="100dp"
+        android:layout_margin="1dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/image_example"
+        android:scaleType="centerCrop"/>
+    <ImageView
+        android:id="@+id/isSelected"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"/>
+
+    <CheckBox
+        android:id="@+id/isSelected2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/isSelected"/>
+
+</RelativeLayout><!-- From: file:/E:/androideclipse/MyApp/res/layout/photo.xml -->

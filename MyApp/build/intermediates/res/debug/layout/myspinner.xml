@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/sp_iv"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/thumb_path_null"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/sp_tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="图片集名称"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/sp_iv"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/sp_tv_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="图片集数目"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/sp_tv_name"
+        android:layout_toRightOf="@+id/sp_iv"
+        android:layout_toEndOf="@+id/sp_iv"/>
+
+</RelativeLayout><!-- From: file:/E:/androideclipse/MyApp/res/layout/myspinner.xml -->

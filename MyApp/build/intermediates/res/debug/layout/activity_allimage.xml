@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/mmfooter_bg">
+
+        <ImageView
+            android:id="@+id/exist_modify_userInfo"
+            style="@style/top_back"
+            android:src="@drawable/back"/>
+
+        <TextView
+            style="@style/top_font"
+            android:text="图片"
+            android:layout_toRightOf="@id/exist_modify_userInfo"/>
+
+        <Button
+            android:id="@+id/finished"
+            style="@style/top_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="完成"/>
+    </RelativeLayout>
+
+    <GridView
+        android:id="@+id/gv_allImg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="3"
+        android:layout_margin="1pt"
+        android:horizontalSpacing="1pt"
+        android:verticalSpacing="1pt"
+        android:gravity="center"
+        android:listSelector="@android:color/transparent"
+        android:cacheColorHint="@android:color/transparent"
+        android:stretchMode="columnWidth"
+        android:clipChildren="true"
+        android:layout_below="@id/rl_title"/>
+
+
+
+    <RelativeLayout
+        android:id="@+id/bottom_ly"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:layout_alignParentBottom="true"
+        android:background="#e0000000"
+        android:clickable="true" >
+
+        <TextView
+            android:id="@+id/choose_imagebucket"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dip"
+            android:text="所有图片"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/bucket_total_count"
+            android:layout_width="50dip"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="0张"
+            android:textColor="@android:color/white" />
+    </RelativeLayout>
+
+</RelativeLayout><!-- From: file:/E:/androideclipse/MyApp/res/layout/activity_allimage.xml -->

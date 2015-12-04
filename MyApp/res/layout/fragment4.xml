@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ebebeb">
+
+    <RelativeLayout
+        android:id="@+id/rl_userInfo"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:clickable="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rl_item_background">
+        <ImageView
+            android:id="@+id/iv_avatar"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/default_face"
+            android:layout_alignParentLeft="true"
+            android:paddingLeft="15dp"/>
+        <TextView
+            android:id="@+id/default_nick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/iv_avatar"
+            android:layout_centerVertical="true"
+            android:paddingLeft="10dp"
+            android:text="羊咩咩"
+            android:textSize="18dp"/>
+        <ImageView
+            android:id="@+id/erweima"
+            style="@style/rl_item_avatar"
+            android:src="@drawable/erweima"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_set"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:clickable="true"
+        android:background="@drawable/rl_item_background">
+        <ImageView
+            android:id="@+id/iv_set"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/rl_iv_setting"
+            android:layout_alignParentLeft="true"
+            android:paddingLeft="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/iv_set"
+            android:layout_centerVertical="true"
+            android:paddingLeft="10dp"
+            android:text="设置"
+            android:textSize="18dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_growKnowledge"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:clickable="true"
+        android:background="@drawable/rl_item_background">
+        <ImageView
+            android:id="@+id/iv_test"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/rl_iv_test"
+            android:layout_alignParentLeft="true"
+            android:paddingLeft="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/iv_test"
+            android:layout_centerVertical="true"
+            android:paddingLeft="10dp"
+            android:text="涨知识"
+            android:textSize="18dp"/>
+    </RelativeLayout>
+
+</LinearLayout>

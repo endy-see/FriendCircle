@@ -1,0 +1,6 @@
+E:\androideclipse\MyApp\build\intermediates\classes\debug
+E:\androideclipse\MyApp\build\intermediates\pre-dexed\debug\classes-0ed26b2e8dc77f38b9c087c3eba6d2cd1ab8b58e.jar
+E:\androideclipse\MyApp\build\intermediates\pre-dexed\debug\fastjson-1.1.34.android-e5ef7042653a16bc4d525813040772ec8c73f503.jar
+E:\androideclipse\MyApp\build\intermediates\pre-dexed\debug\android-support-v7-appcompat-e0ec8d8824c2016359e8aa2d81138c78fce90879.jar
+E:\androideclipse\MyApp\build\intermediates\pre-dexed\debug\android-support-v4-4cec6fbf66332676939150c6bc84ad0abd547983.jar
+E:\androideclipse\MyApp\build\intermediates\pre-dexed\debug\easemobchat_2.1.5-f93e236630fd42ee860dc62c745e0d2ebe0bd0e7.jar

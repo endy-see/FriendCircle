@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ebebeb">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/mmfooter_bg">
+
+        <ImageView
+            android:id="@+id/exist_modify_userInfo"
+            style="@style/top_back"
+            android:src="@drawable/back"/>
+
+        <TextView
+            style="@style/top_font"
+            android:text="个人信息"
+            android:layout_toRightOf="@id/exist_modify_userInfo"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/item_avatar"
+        style="@style/rl_item_style"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp">
+        <TextView
+            style="@style/rl_item_txt_left"
+            android:text="头像"/>
+        <ImageView
+            android:id="@+id/iv_avatar"
+            style="@style/rl_item_avatar"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/avatar_y"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/item_nick"
+        style="@style/rl_item_style">
+        <TextView
+            android:layout_width="330dp"
+            android:layout_height="1dp"
+            android:background="#cccccc"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            style="@style/rl_item_txt_left"
+            android:text="昵称"/>
+        <TextView
+            style="@style/rl_item_txt_right"
+            android:layout_alignParentRight="true"
+            android:text="羊咩咩~"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/item_address"
+        style="@style/rl_item_style">
+        <TextView
+            android:layout_width="330dp"
+            android:layout_height="1dp"
+            android:background="#cccccc"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            style="@style/rl_item_txt_left"
+            android:text="我的地址"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/item_sex"
+        style="@style/rl_item_style"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            style="@style/rl_item_txt_left"
+            android:text="性别"/>
+        <TextView
+            style="@style/rl_item_txt_right"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:text="女"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/item_area"
+        style="@style/rl_item_style">
+        <TextView
+            android:layout_width="330dp"
+            android:layout_height="1dp"
+            android:background="#cccccc"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            style="@style/rl_item_txt_left"
+            android:text="地区"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/item_sign"
+        style="@style/rl_item_style">
+        <TextView
+            android:layout_width="330dp"
+            android:layout_height="1dp"
+            android:background="#cccccc"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            style="@style/rl_item_txt_left"
+            android:text="个人签名"/>
+
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="期待改变。。。"/>
+
+</LinearLayout>

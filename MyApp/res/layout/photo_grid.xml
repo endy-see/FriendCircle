@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/black">
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/back"
+            android:onClick="back"/>
+        <TextView
+            android:layout_toRightOf="@id/back"
+            style="@style/top_font"
+            android:textColor="@color/white"
+            android:text="图片"/>
+        <Button
+            android:id="@+id/finished"
+            style="@style/top_button"
+            android:onClick="back"
+            android:text="完成" />
+    </RelativeLayout>
+
+    <GridView
+        android:id="@+id/images"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="3"
+        android:layout_margin="5dp"
+        android:horizontalSpacing="5dp"
+        android:verticalSpacing="2dp"/>
+
+</LinearLayout>
